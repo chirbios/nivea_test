@@ -1,0 +1,84 @@
+.care{
+    &__top {
+        background: $main-color;
+        padding-bottom: 44px;
+    }
+    &__title{
+        display: grid;
+        padding: 40px 0 22px 0;
+        @include text-fs32;
+    }
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        padding-left: 20%;
+
+    }
+    &__item {
+        padding-top: 22px;
+        padding-left: 30px;
+        @include text-fs18;
+        text-align: left;
+    }
+    &__group {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+    &__text {
+        @include text-fs18;
+    }
+    &__descr {
+        padding-top: 24px;
+        padding-bottom: 31px;
+        text-align: center;
+        @include text-fs18;
+    }
+    &__bottom {
+        background: $main-color;
+        padding-bottom: 88px;
+    }
+    &__bottom_title {
+        padding-top: 40px;
+        @include text-fs32;
+    }
+    &__bottom_wrapper {
+        padding-left: 30%;
+    }
+    &__result {
+        padding-top: 50px;
+        @include text-fs24;
+    }
+    &__faces {
+        background: $main-color;
+    }
+    &__faces_dark_wrapper {
+        text-align: left;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 60px;
+    }
+    &__faces_dark_img {
+        padding: 50px 0 50px 20px;
+    }
+    &__faces_dark_text {
+        max-width: 403px;
+        padding-left: 23px;
+    }
+    &__faces_dark_title {
+        @include text-fs24;
+        text-align: left;
+    }
+    &__faces_dark_subscr {
+        padding-top: 14px;
+        @include text-fs18;
+        text-align: left;
+    }
+    &__faces_simple {
+        padding-bottom: 42px;
+        @include text-fs32;
+    }
+}

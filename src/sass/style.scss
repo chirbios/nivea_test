@@ -1,0 +1,37 @@
+@import url('http://fonts.cdnfonts.com/css/eagle-2');
+
+
+@font-face {
+    font-family: 'Nivea OT Light';
+    src: url('../fonts/NiveaLightOT.eot');
+    src: url('NiveaLightOT.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/NiveaLightOT.woff') format('woff'),
+    url('../fonts/NiveaLightOT.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+* {
+    font-family: 'Nivea OT Light';
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1044px;
+    margin: 0 auto;
+}
+.container-mini {
+    max-width: 870px;
+    margin: 0 auto;
+}
+@import './base/variables.scss';
+@import './base/mixins.scss';
+@import './base/btn.scss';
+
+@import './blocks/nav.scss';
+@import './blocks/promo.scss';
+@import './blocks/care.scss';
+@import './blocks/products.scss';
+@import './blocks/share.scss';
+@import './blocks/footer.scss';
+
+

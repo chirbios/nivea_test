@@ -1,0 +1,82 @@
+.navigation {
+    &__main {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo {
+        padding: 12px 0 6px 0;
+        padding-right: 40px;
+    }
+    &__main_headers {
+        display: flex;
+        align-items: center;
+    }
+    &__item {
+        padding-right: 30px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #0032A0;
+    }
+    &__icons {
+        display: flex;
+    }
+    &__icons_img {
+        padding-top: 19px;
+        padding-left: 30px;
+    }
+    &__types {
+        border-bottom: 1px solid #D6DCEC;
+        border-top: 1px solid #D6DCEC;
+    }
+    &__nav {
+        padding: 8px 0 10px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__top {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: #0032A0;
+    }
+    &__arrow {
+        padding-right: 5px;
+    }
+    &__promotion {
+        padding-right: 5px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: #0032A0;
+    }
+    &__map {
+        display: flex;
+    }
+    &__home {
+        padding-right: 5px;
+    }
+    &__contest {
+        text-align: center;
+        margin-top: 15px;
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 2fr 1fr 1.5fr;
+        justify-content: space-between;
+        border: 1px solid #EFF5FA;
+        border-radius: 5px;
+    }
+    &__contest_item {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: #0032A0;
+        padding: 6px 0 6px 0;
+        border-left: 1px solid #EFF5FA;
+        box-sizing: border-box;
+    }
+}

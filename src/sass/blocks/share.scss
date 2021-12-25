@@ -1,0 +1,27 @@
+.share {
+    &__title {
+        @include text-fs32;
+        padding: 50px 0 12px 0;
+    }
+    &__social {
+        display: flex;
+        justify-content: center;
+    }
+    &__item-fb {
+        padding-left: 20px;
+    }
+    &__agreement {
+        display: flex;
+        font-size: 10px;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 22px;
+        text-align: center;
+        color: #0032A0;
+    }
+    &__agreement img {
+        padding-right: 10px;
+    }
+}

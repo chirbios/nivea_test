@@ -1,0 +1,47 @@
+.products {
+    background: $main-color;
+    padding-bottom: 60px;
+    &__wrapper {
+        align-items: center;
+        text-align: center;
+        padding-top: 60px;
+        display: grid;
+        grid-template-columns: 468px 468px;
+        column-gap: 72px;
+        row-gap: 60px;
+    }
+    &__item {
+        background: #fff;
+        display: grid;
+        height: 620px;
+        align-items: center;
+    }
+    &__items {
+        display: flex;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+    }
+    &__ozon {
+        padding-left: 61px;
+    }
+    &__wildberries {
+        padding-left: 51px;
+    }
+    &__img {
+        padding-top: 34px;
+        padding-bottom: 26px;
+    }
+    &__img-a {
+        padding-top: 39px;
+        padding-bottom: 31px;
+    }
+    &__name {
+        @include text-fs24;
+        max-width: 343px;
+        padding-left: 70px;
+    }
+    &__btn, .btn_white {
+        margin-bottom: 42px;
+    }
+    
+}
